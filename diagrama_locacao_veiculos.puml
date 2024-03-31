@@ -59,4 +59,11 @@ class Locacao {
   - dataHoraDevolucao: LocalDateTime
 }
 
+Empresa "1" *-- "*" Automovel : possui
+Cliente "1" *-- "1" Endereco : reside
+Modelo "1" -- "*" Automovel : possui
+Marca "1" - "*" Modelo : refere-se
+Automovel "1" o- "*" Locacao : locado por 
+Locacao "*" -o "1" Cliente : loca
+
 @enduml
