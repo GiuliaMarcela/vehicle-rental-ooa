@@ -37,3 +37,12 @@ O diagrama de classes está organizado da seguinte forma:
 1. Abra o arquivo [diagrama_locacao_veiculos.puml](/diagrama_locacao_veiculos.puml) do diagrama de classes em uma ferramenta de modelagem UML compatível, como o PlantUML ou uma IDE que suporte visualização de diagramas UML.
 2. Analise a estrutura do diagrama, observando as classes, atributos e relacionamentos representados.
 3. Utilize o diagrama como referência durante o desenvolvimento do sistema, garantindo que a implementação siga a estrutura e as relações definidas.
+
+## Referências
+
+- [Modelo Conceitual – O que é e qual a importância?](https://ambscience.com/modelo-conceitual/#:~:text=Um%20Modelo%20Conceitual%20é%20a,distribuição%20espacial%20da%20contaminação%20e)
+- [Introdução a modelagem conceitual](https://www.devmedia.com.br/introducao-a-modelagem-conceitual/10793)
+- [Curso de UML O que é um Diagrama de Classes](https://youtu.be/JQSsqMCVi1k?si=HfMzIqXpXtDUTLdy)
+- [Classes abstratas vs Interfaces](https://www.treinaweb.com.br/blog/classes-abstratas-vs-interfaces)
+- [Classes Abstratas](https://www.alura.com.br/apostila-java-orientacao-objetos/classes-abstratas)
+- [Classes de Associação](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=diagrams-association-classes)
