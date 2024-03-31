@@ -22,7 +22,7 @@ class Automovel {
   renavam: String
   chassi: String
   valor: Double
-  disponibilidade: boolean
+  disponibilidade: Boolean
 }
 
 class Cliente {
@@ -46,19 +46,17 @@ class Endereco {
 }
 
 class Marca {
-  - <<oid>> id: UUID
   - nome: String
 }
 
 class Modelo {
-  - <<oid>> id: UUID
   - nome: String
 }
 
 class Locacao {
   - codigo: UUID {unique}
-  - dataHoraInicio: Date
-  - dataHoraDevolucao: Date
+  - dataHoraInicio: LocalDateTime
+  - dataHoraDevolucao: LocalDateTime
 }
 
 @enduml
