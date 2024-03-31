@@ -1,0 +1,64 @@
+@startuml
+header Análise Orientada a Objetos - 3º Semestre - Unopar - Análise e Desenvolvimento de Sistemas
+
+title Sistema de Locação de Veículos
+
+footer Giulia Marcela Mendes de Arruda
+
+!theme carbon-gray
+
+class Empresa {
+  - nome: String
+  - cnpj: String {unique}
+}
+
+class Automovel {
+  placa: String {unique}
+  cor: String
+  ano: Integer
+  tipoCombustivel: String
+  numeroPortas: Integer
+  quilometragem: Long
+  renavam: String
+  chassi: String
+  valor: Double
+  disponibilidade: boolean
+}
+
+class Cliente {
+  - nome: String
+  - cpf: String {unique}
+  - rg: String
+  - cnh: String
+  - email: String
+  - telefoneResidencial: String
+  - telefoneCelular: String
+}
+
+class Endereco {
+  - cep: String {unique}
+  - logradouro: String
+  - complemento: String
+  - bairro: String
+  - localidade: String
+  - uf: String
+  - ddd: int
+}
+
+class Marca {
+  - <<oid>> id: UUID
+  - nome: String
+}
+
+class Modelo {
+  - <<oid>> id: UUID
+  - nome: String
+}
+
+class Locacao {
+  - codigo: UUID {unique}
+  - dataHoraInicio: Date
+  - dataHoraDevolucao: Date
+}
+
+@enduml
