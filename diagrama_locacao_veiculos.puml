@@ -27,6 +27,7 @@ class Automovel {
   + adicionarAutomovel()
   + removerAutomovel()
   + atualizarDisponibilidade()
+  + recuperarAutomovel()
 }
 
 class Cliente {
@@ -52,14 +53,26 @@ class Endereco {
   - localidade: String
   - uf: String
   - ddd: int
+
+  + recuperarEnderecoPorCep()
 }
 
 class Marca {
   - nome: String
+
+  + adicionarMarca()
+  + excluirMarca()
+  + recuperarMarca()
+  + atualizarMarca()
 }
 
 class Modelo {
   - nome: String
+
+  + adicionarModelo()
+  + excluirModelo()
+  + recuperarModelo()
+  + atualizarModelo()
 }
 
 class Locacao {
@@ -68,6 +81,7 @@ class Locacao {
   - dataHoraDevolucao: LocalDateTime
 
   + registrarLocacao()
+  + recuperarLocacao()
   + consultarLocacoes()
 }
 

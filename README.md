@@ -26,7 +26,7 @@ Para a criação do diagrama de classes, foram utilizadas ferramentas de modelag
 
 O diagrama de classes está organizado da seguinte forma:
 
-- Classes representando as entidades principais do sistema, como Cliente, Veículo, Locação, etc.
+- Classes representando as entidades principais do sistema, como Cliente, Automóvel, Locação, etc.
 - Atributos associados a cada classe, representando as características ou propriedades das entidades.
 - Relacionamentos entre as classes, indicando as associações entre as entidades e o tipo de relação (agregação, composição, associação simples).
 
